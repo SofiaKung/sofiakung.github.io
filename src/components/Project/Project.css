@@ -1,0 +1,65 @@
+.project-row {
+  /* background-color: #FBFBFB; */
+  /* to adjust for side and top spacing */
+  padding: 100px 10%;
+  /* display: flex; */
+  justify-content: center;
+  text-align: center;
+  background: #546df5;
+}
+
+.white-text {
+  color: white;
+}
+
+/* each project top and bottom spacing 50px and align to center */
+.project-item {
+  align-items: left;
+  padding: 50px 0px;
+}
+
+/* spacing between images of portfolio */
+.project-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* set height and width of each project image */
+.img-container {
+  height: 220px;
+  width: 420px;
+  border: 10px;
+  background: white;
+  align-content: center;
+  vertical-align: center;
+  border-radius: 5px;
+  display: inline-flex;
+  position: relative;
+  /* establish nearest positioned ancestor for abspos */
+  cursor: pointer;
+}
+
+.home-project-image {
+  vertical-align: center;
+  max-width: 100%;
+}
+
+.img-container:hover .home-project-image {
+  opacity: 0.15;
+}
+
+/* text over project image */
+.text {
+  font-weight: bold;
+  opacity: 0;
+  color: black;
+  position: absolute; /* remove from document flow */
+  left: 50%; /* center horizontally */
+  top: 50%; /* center vertically */
+  transform: translate(-50%, -50%);
+}
+
+.img-container:hover .text {
+  opacity: 1;
+}

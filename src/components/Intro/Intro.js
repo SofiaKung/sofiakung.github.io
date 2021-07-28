@@ -1,5 +1,4 @@
 import React from 'react'
-import { MenuItems } from './Menuitems'
 import './Intro.css'
 import profilepic from './profilePic.jpg'
 import Timeline from './Timeline'
