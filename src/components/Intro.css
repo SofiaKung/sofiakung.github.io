@@ -1,16 +1,32 @@
-.profile-image {
-  width: 250px;
-}
 .intro-row {
+  display: flex;
   background-color: #fbfbfb;
   /* to adjust for side and top spacing */
-  padding: 10% 20% 50px 20%;
-  display: flex;
-  /* flex-wrap: wrap; */
+  padding: 5% 20%;
+  justify-content: space-around;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 /* // spacing between intro image and text */
 .intro-content {
-  padding: 0% 50px;
+  padding: 0% 40px;
+}
+
+.profile-image {
+  width: 250px;
+}
+.intro-p1 {
+  flex-grow: 1;
+}
+
+.intro-p2 {
+  width: 500px;
+  flex-grow: 2;
+}
+
+.timeline-row {
+  padding: 5% 300px;
+  display: flex;
+  justify-content: center;
 }

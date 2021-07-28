@@ -1,11 +1,8 @@
 .header {
-  /* width: 100%; */
   display: flex;
   justify-content: space-around;
   text-align: center;
-  margin: 0 auto;
   background: white;
-  padding: 20px 20%;
   /* position: fixed; */
 }
 
