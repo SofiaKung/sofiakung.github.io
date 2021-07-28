@@ -1,0 +1,35 @@
+.header {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0 auto;
+  background: white;
+  padding: 20px 20%;
+  /* position: fixed; */
+}
+
+.header-logo {
+  font-weight: bold;
+  color: #202020;
+}
+
+.topnav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+a {
+  /* spacing in between nav link */
+  padding: 0px 10px;
+  text-decoration: none;
+  font-weight: 500;
+  color: darkgrey;
+}
+
+a:hover {
+  color: #546df5;
+  text-decoration: underline;
+}

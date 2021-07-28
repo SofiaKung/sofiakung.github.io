@@ -1,0 +1,16 @@
+.profile-image {
+  width: 250px;
+}
+.intro-row {
+  background-color: #fbfbfb;
+  /* to adjust for side and top spacing */
+  padding: 10% 20% 50px 20%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+}
+
+/* // spacing between intro image and text */
+.intro-content {
+  padding: 0% 50px;
+}
