@@ -1,6 +1,7 @@
 import React from 'react'
 import { MenuItems } from './Menuitems'
 import './Navbar.css'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -12,11 +13,14 @@ const Navbar = () => {
       <div className="topnav">
         {MenuItems.map((item, index) => {
           return (
-            <a key={index} className={item.cName} href={item.url}>
+            <Link key={index} className={item.cName} to={item.url}>
               {item.title}
-            </a>
+            </Link>
           )
         })}
+        <a href="https://drive.google.com/file/d/1CIM8A7S_goiCw_sPSHEtcWq9V7DmRCsB/view?usp=sharing">
+          Resume
+        </a>
       </div>
     </span>
   )

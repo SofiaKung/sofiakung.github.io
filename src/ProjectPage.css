@@ -1,0 +1,40 @@
+.project-heading {
+  padding: 10% 20% 3% 20%;
+  text-align: center;
+}
+.project-cover {
+  width: 100%;
+}
+
+.project-content {
+  padding: 0% 20% 0% 20%;
+  text-align: left;
+}
+
+.bold-text {
+  font-family: sans-serif, Arial, Helvetica;
+  font-weight: 600;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.url-color {
+  color: #546df5;
+}
+.gallery {
+  display: flex;
+  padding: 0px 18%;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.gallery-box {
+  margin: 0px 35px;
+  width: 460px;
+  padding-bottom: 5%;
+}
+
+.project-image {
+  width: 400px;
+}

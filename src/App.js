@@ -1,17 +1,27 @@
 import './App.css'
-import Navbar from './components/Navbar/Navbar.js'
-import Intro from './components/Intro/Intro.js'
-import Project from './components/Project/Project.js'
-import Footer from './components/Footer'
 
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Geviz from './GevizPage'
+import Audit from './AuditPage'
+import Home from './Home'
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Intro />
-      <Project />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+
+          <Route exact path="/geviz">
+            <Geviz />
+          </Route>
+          <Route exact path="/AuditAnalytics">
+            <Audit />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   )
 }
 
