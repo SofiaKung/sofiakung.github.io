@@ -12,8 +12,10 @@ const Footer = () => {
   return (
     <>
       <footer className="footer">
-        <div className="text-center">
-          <p> Copyright @2021 | Designed by Sofia Kung</p>
+        <div>
+          <p className="text-center">
+            Copyright @2021 | Designed by Sofia Kung
+          </p>
         </div>
 
         <ul className="social_footer_ul">

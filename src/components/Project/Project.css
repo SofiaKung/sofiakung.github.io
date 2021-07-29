@@ -1,35 +1,30 @@
 .project-row {
-  /* background-color: #FBFBFB; */
-  /* to adjust for side and top spacing */
   padding: 100px 10%;
-  /* display: flex; */
-  justify-content: center;
-  text-align: center;
   background: #546df5;
+  text-align: center;
 }
 
 .white-text {
   color: white;
 }
 
-/* each project top and bottom spacing 50px and align to center */
-.project-item {
-  align-items: left;
-  padding: 50px 0px;
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
-/* spacing between images of portfolio */
-.project-gallery {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+/* each project top and bottom spacing 50px and align to center */
+.project-item {
+  padding: 50px 0px;
 }
 
 /* set height and width of each project image */
 .img-container {
   height: 220px;
-  width: 420px;
-  border: 10px;
+  width: 400px;
+
   background: white;
   align-content: center;
   vertical-align: center;
@@ -50,7 +45,7 @@
 }
 
 /* text over project image */
-.text {
+.hover-text {
   font-weight: bold;
   opacity: 0;
   color: black;
@@ -60,6 +55,6 @@
   transform: translate(-50%, -50%);
 }
 
-.img-container:hover .text {
+.img-container:hover .hover-text {
   opacity: 1;
 }
