@@ -10,14 +10,14 @@ function App() {
       <div className="App">
         <Switch>
           <Route exact path="/">
-            <Home />
+            <Home title="Home" />
           </Route>
 
           <Route exact path="/geviz">
-            <Geviz />
+            <Geviz title="Geviz" />
           </Route>
           <Route exact path="/AuditAnalytics">
-            <Audit />
+            <Audit title="Fraud Procurement Dashboard" />
           </Route>
         </Switch>
       </div>
