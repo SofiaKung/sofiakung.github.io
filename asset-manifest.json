@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.19ecf945.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.1dd5729c.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.1dd5729c.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.872b2f22.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.872b2f22.js.map",
+    "static/js/2.41d3d9da.chunk.js": "/react-portfolio/static/js/2.41d3d9da.chunk.js",
+    "static/js/2.41d3d9da.chunk.js.map": "/react-portfolio/static/js/2.41d3d9da.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.19ecf945.chunk.css.map": "/react-portfolio/static/css/main.19ecf945.chunk.css.map",
+    "static/js/2.41d3d9da.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.41d3d9da.chunk.js.LICENSE.txt",
+    "static/media/AuditAnalytics.784e8d41.png": "/react-portfolio/static/media/AuditAnalytics.784e8d41.png",
+    "static/media/FraudML.a1d6bbc8.png": "/react-portfolio/static/media/FraudML.a1d6bbc8.png",
+    "static/media/Geviz3.d452ddec.png": "/react-portfolio/static/media/Geviz3.d452ddec.png",
+    "static/media/network.15c3439e.JPG": "/react-portfolio/static/media/network.15c3439e.JPG",
+    "static/media/overview.e1168349.JPG": "/react-portfolio/static/media/overview.e1168349.JPG",
+    "static/media/profilePic.25b07a95.jpg": "/react-portfolio/static/media/profilePic.25b07a95.jpg",
+    "static/media/sangkey.e2d48a31.JPG": "/react-portfolio/static/media/sangkey.e2d48a31.JPG",
+    "static/media/scatter.9e533422.JPG": "/react-portfolio/static/media/scatter.9e533422.JPG",
+    "static/media/transaction.9321c514.JPG": "/react-portfolio/static/media/transaction.9321c514.JPG",
+    "static/media/treemap.a059bb34.png": "/react-portfolio/static/media/treemap.a059bb34.png",
+    "static/media/wordcloud.795dadb0.JPG": "/react-portfolio/static/media/wordcloud.795dadb0.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.872b2f22.js",
+    "static/js/2.41d3d9da.chunk.js",
+    "static/css/main.19ecf945.chunk.css",
+    "static/js/main.1dd5729c.chunk.js"
+  ]
+}
