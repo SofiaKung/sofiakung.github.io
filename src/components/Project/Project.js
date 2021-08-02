@@ -41,16 +41,17 @@ const Project = () => {
             </div>
           </>
         ))}
-
-        <a
-          href="https://towardsdatascience.com/detecting-firms-with-intentional-misstatements-using-machine-learning-a943191f88cf"
-          class=" img-container"
-        >
-          <img class="home-project-image" src={FraudML} alt="project pic" />
-          <h3 class="hover-text middle">
-            Detecting Financial Statement Fraud with ML
-          </h3>
-        </a>
+        <div className="project-item">
+          <a
+            href="https://towardsdatascience.com/detecting-firms-with-intentional-misstatements-using-machine-learning-a943191f88cf"
+            class=" img-container"
+          >
+            <img class="home-project-image" src={FraudML} alt="project pic" />
+            <h3 class="hover-text middle">
+              Detecting Financial Statement Fraud with ML
+            </h3>
+          </a>
+        </div>
       </div>
     </div>
   )

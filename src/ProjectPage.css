@@ -23,18 +23,25 @@
 }
 .gallery {
   display: flex;
-  padding: 0px 18%;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-wrap: wrap;
   align-items: baseline;
 }
 
 .gallery-box {
-  margin: 0px 35px;
+  margin-right: 20px;
   width: 460px;
   padding-bottom: 5%;
 }
 
+/* .gallery-box :first-of-type {
+  margin-left: 0;
+}
+
+.gallery-box :last-of-type {
+  margin-right: 0;
+} */
+
 .project-image {
-  width: 400px;
+  width: 100%;
 }

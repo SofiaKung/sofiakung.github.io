@@ -4,9 +4,4 @@ export const MenuItems = [
     url: '/',
     cName: 'nav-links',
   },
-  {
-    title: 'Project',
-    url: '/#project-section',
-    cName: 'nav-links',
-  },
 ]

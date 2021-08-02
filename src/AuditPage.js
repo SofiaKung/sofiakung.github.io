@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar/Navbar'
 import './ProjectPage.css'
 import Footer from './components/Footer'
+import { Helmet } from 'react-helmet'
 
 import AuditCover from './components/Project/images/AuditAnalytics.png'
 import overview from './components/Project/images/overview.JPG'
@@ -31,13 +32,19 @@ const Audit = () => {
   ]
   return (
     <>
+      <Helmet>
+        <title>Procurement Fraud Dashboard</title>
+        <meta
+          name="description"
+          content="Detecting Procurement Fraud with Tableau"
+        />
+        <meta name="theme-color" content="#008f68" />
+      </Helmet>
+
       <Navbar />
       <div class="project-heading">
-        <h1>Visualizing Singapore Government Spending</h1>
-        <p>
-          Insights into the spending pattern of each Ministry and Agency of
-          Singapore Government
-        </p>
+        <h1>Procurement Fraud Dashboard</h1>
+        <p>Detecting potential procurement fraud with Tableau</p>
         <br />
         <img class="project-cover" src={AuditCover} alt="project pic" />
       </div>
@@ -74,21 +81,22 @@ const Audit = () => {
         <br />
 
         <h3 class="bold-text"> Visualization Techniques:</h3>
-      </div>
-      <div class="gallery">
-        {GalleryItem.map((item, index) => (
-          <>
-            <div class="gallery-box">
-              <img
-                class="project-image"
-                src={item.imageSrc}
-                alt="project pic"
-              />
-              <h4 class="bold-text">{item.title}</h4>
-              <p>{item.description}</p>
-            </div>
-          </>
-        ))}
+
+        <div class="gallery">
+          {GalleryItem.map((item, index) => (
+            <>
+              <div class="gallery-box">
+                <img
+                  class="project-image"
+                  src={item.imageSrc}
+                  alt="project pic"
+                />
+                <h4 class="bold-text">{item.title}</h4>
+                <p>{item.description}</p>
+              </div>
+            </>
+          ))}
+        </div>
       </div>
       <Footer />
     </>

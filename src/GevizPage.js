@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar/Navbar'
 import './ProjectPage.css'
 import Footer from './components/Footer'
+import { Helmet } from 'react-helmet'
 
 import GevizCover from './components/Project/images/Geviz3.png'
 import network from './components/Project/images/network.JPG'
@@ -37,10 +38,22 @@ const Geviz = () => {
   ]
   return (
     <>
+      <Helmet>
+        <title>Visualizing Singapore Government Spending</title>
+        <meta
+          name="description"
+          content="Insights into the spending pattern of each Ministry and Agency of
+          Singapore Government"
+        />
+        <meta name="theme-color" content="#008f68" />
+      </Helmet>
       <Navbar />
       <div class="project-heading">
-        <h1>Procurement Fraud Dashboard</h1>
-        <p>Detecting potential procurement fraud with Tableau</p>
+        <h1>Visualizing Singapore Government Spending</h1>
+        <p>
+          Insights into the spending pattern of each Ministry and Agency of
+          Singapore Government
+        </p>
         <br />
         <img class="project-cover" src={GevizCover} alt="project pic" />
       </div>
@@ -78,21 +91,22 @@ const Geviz = () => {
         </p>
         <br />
         <h3 class="bold-text"> Visualization Techniques:</h3>
-      </div>
-      <div class="gallery">
-        {GalleryItem.map((item, index) => (
-          <>
-            <div class="gallery-box">
-              <img
-                class="project-image"
-                src={item.imageSrc}
-                alt="project pic"
-              />
-              <h4 class="bold-text">{item.title}</h4>
-              <p>{item.description}</p>
-            </div>
-          </>
-        ))}
+
+        <div class="gallery">
+          {GalleryItem.map((item, index) => (
+            <>
+              <div class="gallery-box">
+                <img
+                  class="project-image"
+                  src={item.imageSrc}
+                  alt="project pic"
+                />
+                <h4 class="bold-text">{item.title}</h4>
+                <p>{item.description}</p>
+              </div>
+            </>
+          ))}
+        </div>
       </div>
       <Footer />
     </>

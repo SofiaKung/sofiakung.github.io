@@ -2,6 +2,7 @@ import React from 'react'
 import { MenuItems } from './Menuitems'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 const Navbar = () => {
   return (
@@ -18,6 +19,9 @@ const Navbar = () => {
             </Link>
           )
         })}
+        <HashLink smooth to="/#project-section">
+          Project{' '}
+        </HashLink>
         <a href="https://drive.google.com/file/d/1CIM8A7S_goiCw_sPSHEtcWq9V7DmRCsB/view?usp=sharing">
           Resume
         </a>
