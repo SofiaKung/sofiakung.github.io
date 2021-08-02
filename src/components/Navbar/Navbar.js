@@ -20,9 +20,10 @@ const Navbar = () => {
           )
         })}
         <HashLink smooth to="/#project-section">
-          Project{' '}
+          Project
         </HashLink>
-        <a href="https://drive.google.com/file/d/1CIM8A7S_goiCw_sPSHEtcWq9V7DmRCsB/view?usp=sharing">
+
+        <a href="https://drive.google.com/file/d/1FpOlsaVsYbV-r541_hgKUrABgVOzBiJC/view">
           Resume
         </a>
       </div>
