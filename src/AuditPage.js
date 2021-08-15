@@ -13,7 +13,7 @@ const Audit = () => {
     {
       title: 'An Overview of 3-way Match Results',
       description:
-        'This chart gives users a quick overview of the 3-way match results. By clicking on each category of the three-way match results, the entire dashboard is filtered to show transactions belonging to that category.',
+        'This chart gives users a quick overview of the 3-way match results. The categories that are alarming are purchases without PO. By clicking on each category of the three-way match results, the entire dashboard is filtered to show transactions belonging to a category of 3-way matching results.',
       imageSrc: overview,
     },
     {
@@ -51,11 +51,11 @@ const Audit = () => {
       <div class="project-content">
         <h3 class="bold-text"> Overview of Project:</h3>
         <p>
-          This dashboard is created for the module - ACCT 423 Audit Analytics.
-          The dashboard aims to apply data analytics in procurement audit
-          testing. Procurement is a key area for audit as procurement
-          transactions can impact many different financial accounts. The main
-          audit risks of procurement transactions are:
+          This dashboard aims to apply data analytics in procurement audit
+          testing. Procurement tends to be a key area for financial audit as
+          procurement transactions can impact many different accounts on the
+          financial statement. The main fraud risks of procurement transactions
+          are:
         </p>
         <br />
         <ul>
@@ -68,13 +68,20 @@ const Audit = () => {
         <br />
 
         <p>
-          To address these audit risks, the most common audit test is a 3-way
-          match test on a selected sample of transactions. With the aid of data
-          analytics, 3-way matching can be performed on 100% of procurement
-          transactions, as opposed to the traditional approach of selecting a
-          certain number of transactions for audit testing. This will provide a
-          more complete assurance as all transactions that do not fulfill the
-          test can be detected.
+          To address these audit risks, the most common test to select a sample
+          of transactions to perform the 3-way matching test. This audit test
+          checks whether the quantity and dollar amount on purchase order (PO)
+          matches the corresponding invoice (INV) and goods receipt report (GR),
+          ensuring the purchase is indeed authorised, billed with the correct
+          amount and received by the company.
+        </p>
+        <br />
+        <p>
+          With the aid of data analytics, 3-way matching can be performed on
+          100% of procurement transactions, as opposed to the traditional
+          approach of selecting a certain number of transactions for audit
+          testing. This will provide a more complete assurance as all
+          transactions that do not fulfill the test can be detected.
         </p>
         <br />
         <p>Tools Used: Excel, SQL and Tableau</p>

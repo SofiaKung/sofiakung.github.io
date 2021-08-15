@@ -10,7 +10,7 @@ const Intro = () => {
       </div>
       <div className="intro-content intro-p2">
         <h1 className="intro-section"> &#128075; Hi I' m Sofia Kung. </h1>
-        <p className="intro-section">I am a data analyst.</p>
+        <p className="intro-section">I am a data analyst based in Singapore.</p>
         <br></br>
         <p className="intro-section">
           I am now taking a quarter gap-year to self-learn web development,
