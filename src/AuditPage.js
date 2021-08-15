@@ -68,12 +68,12 @@ const Audit = () => {
         <br />
 
         <p>
-          To address these audit risks, the most common test to select a sample
-          of transactions to perform the 3-way matching test. This audit test
-          checks whether the quantity and dollar amount on purchase order (PO)
-          matches the corresponding invoice (INV) and goods receipt report (GR),
-          ensuring the purchase is indeed authorised, billed with the correct
-          amount and received by the company.
+          To address these audit risks, the most common test is to select a
+          sample of transactions to perform the 3-way matching test. This audit
+          test checks whether the quantity and dollar amount on purchase order
+          (PO) matches the corresponding invoice (INV) and goods receipt report
+          (GR), ensuring the purchase is indeed authorised, billed with the
+          correct amount and received by the company.
         </p>
         <br />
         <p>
@@ -85,6 +85,15 @@ const Audit = () => {
         </p>
         <br />
         <p>Tools Used: Excel, SQL and Tableau</p>
+        <p>
+          Link to Tableau dashboard:
+          <a
+            class="url-color"
+            href="https://public.tableau.com/app/profile/sofiakung/viz/AuditAnalyticsProcurementDashboard/3waymatch"
+          >
+            Fraud Procurement Dashboard
+          </a>
+        </p>
         <br />
 
         <h3 class="bold-text"> Visualization Techniques:</h3>
