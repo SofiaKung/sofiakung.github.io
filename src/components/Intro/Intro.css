@@ -17,11 +17,12 @@
   width: 250px;
 }
 .intro-p1 {
+  width: 20%;
   flex-grow: 1;
 }
 
 .intro-p2 {
-  width: 500px;
+  width: 40%;
   flex-grow: 2;
 }
 
