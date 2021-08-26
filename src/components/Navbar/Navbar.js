@@ -23,7 +23,7 @@ const Navbar = () => {
           Project
         </HashLink>
 
-        <a href="https://drive.google.com/file/d/1FpOlsaVsYbV-r541_hgKUrABgVOzBiJC/view">
+        <a href="https://docs.google.com/document/d/17EGUsSH1R1xmTye5ynQhA4E9q7bzTjWq_m0PM0KIYcU/edit?usp=sharing">
           Resume
         </a>
       </div>
