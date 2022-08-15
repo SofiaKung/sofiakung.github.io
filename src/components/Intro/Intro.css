@@ -2,28 +2,34 @@
   display: flex;
   background-color: #fbfbfb;
   /* to adjust for side and top spacing */
-  padding: 5% 20%;
-  justify-content: space-around;
+  padding: 10% 25%;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 /* // spacing between intro image and text */
 .intro-content {
-  padding: 0% 40px;
+  margin: 10 px;
+  /* background-color: red; */
 }
 
 .profile-image {
-  width: 250px;
+  width: 300px;
+  border-radius: 50%;
 }
 .intro-p1 {
-  width: 20%;
   flex-grow: 1;
+  text-align: center;
 }
 
 .intro-p2 {
-  width: 40%;
   flex-grow: 2;
+  line-height: 1.8rem;
+  text-align: center;
+
+  @media screen and (min-width: 780px) {
+    text-align: left;
+  }
 }
 
 .timeline-row {
