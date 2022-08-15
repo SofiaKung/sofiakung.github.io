@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.976f1945.chunk.css",
+    "main.js": "/static/js/main.d8d052ef.chunk.js",
+    "main.js.map": "/static/js/main.d8d052ef.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e51c5581.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e51c5581.js.map",
+    "static/js/2.607928c2.chunk.js": "/static/js/2.607928c2.chunk.js",
+    "static/js/2.607928c2.chunk.js.map": "/static/js/2.607928c2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.976f1945.chunk.css.map": "/static/css/main.976f1945.chunk.css.map",
+    "static/js/2.607928c2.chunk.js.LICENSE.txt": "/static/js/2.607928c2.chunk.js.LICENSE.txt",
+    "static/media/AuditAnalytics.784e8d41.png": "/static/media/AuditAnalytics.784e8d41.png",
+    "static/media/FraudML.a1d6bbc8.png": "/static/media/FraudML.a1d6bbc8.png",
+    "static/media/Geviz3.d452ddec.png": "/static/media/Geviz3.d452ddec.png",
+    "static/media/network.15c3439e.JPG": "/static/media/network.15c3439e.JPG",
+    "static/media/overview.e1168349.JPG": "/static/media/overview.e1168349.JPG",
+    "static/media/profilePic.25b07a95.jpg": "/static/media/profilePic.25b07a95.jpg",
+    "static/media/sangkey.e2d48a31.JPG": "/static/media/sangkey.e2d48a31.JPG",
+    "static/media/scatter.9e533422.JPG": "/static/media/scatter.9e533422.JPG",
+    "static/media/transaction.9321c514.JPG": "/static/media/transaction.9321c514.JPG",
+    "static/media/treemap.a059bb34.png": "/static/media/treemap.a059bb34.png",
+    "static/media/wordcloud.795dadb0.JPG": "/static/media/wordcloud.795dadb0.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e51c5581.js",
+    "static/js/2.607928c2.chunk.js",
+    "static/css/main.976f1945.chunk.css",
+    "static/js/main.d8d052ef.chunk.js"
+  ]
+}
